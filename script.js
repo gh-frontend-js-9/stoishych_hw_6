@@ -64,6 +64,7 @@ getFunction();
 //exercise 3
 console.log("Exercise 3");
 
+let arrayReplace = [3,4,5,6,7,8,372,44,221,441,22,37,432];
 console.log(array);
 function replaceNumbers(arr) {
     for(let i = 1; i < arr.length; i++) {
@@ -78,7 +79,7 @@ function replaceNumbers(arr) {
     console.log(arr);
 }
 
-replaceNumbers(array);
+replaceNumbers(arrayReplace);
 
 //exercise 4 
 
